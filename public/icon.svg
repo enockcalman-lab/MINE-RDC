@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <rect width="500" height="500" x="6" y="6" rx="122" fill="none" stroke="url(#gold)" stroke-width="8" opacity="0.6"/>
+  
+  <!-- Outer subtle ring -->
+  <circle cx="256" cy="240" r="150" fill="none" stroke="url(#gold)" stroke-width="4" opacity="0.2"/>
+  
+  <!-- Crossed Pickaxes / Mining Symbol -->
+  <g transform="translate(256, 230)">
+    <!-- Pickaxe 1 -->
+    <path d="M-90,-100 C-60,-120 60,-120 90,-100 C70,-70 50,-60 20,-60 L-10,-40 L-40,-10 L-60,20 C-60,50 -70,70 -100,90 C-120,60 -120,-60 -100,-90 Z" fill="url(#gold)" opacity="0.15"/>
+    
+    <!-- Left to Right Handle -->
+    <rect x="-10" y="-120" width="20" height="240" rx="10" transform="rotate(45)" fill="#64748b"/>
+    <!-- Head 1 -->
+    <path d="M-80,-70 Q0,-120 80,-70 Q50,-90 0,-100 Q-50,-90 -80,-70 Z" transform="rotate(45)" fill="url(#gold)"/>
+    
+    <!-- Right to Left Handle -->
+    <rect x="-10" y="-120" width="20" height="240" rx="10" transform="rotate(-45)" fill="#94a3b8"/>
+    <!-- Head 2 -->
+    <path d="M-80,-70 Q0,-120 80,-70 Q50,-90 0,-100 Q-50,-90 -80,-70 Z" transform="rotate(-45)" fill="url(#gold)"/>
+
+    <!-- Central Sparkling Diamond Gem -->
+    <polygon points="0,-35 30,0 0,35 -30,0" fill="url(#emerald)"/>
+    <polygon points="0,-25 20,0 0,25 -20,0" fill="#a7f3d0" opacity="0.8"/>
+  </g>
+
+  <!-- Wordmark MINE RDC -->
+  <text x="256" y="420" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="44" fill="#ffffff" text-anchor="middle" letter-spacing="4">
+    MINE <tspan fill="#f59e0b">RDC</tspan>
+  </text>
+  <text x="256" y="450" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="16" fill="#94a3b8" text-anchor="middle" letter-spacing="6">
+    APPLICATION OFFICIELLE
+  </text>
+</svg>

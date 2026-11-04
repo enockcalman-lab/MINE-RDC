@@ -1,0 +1,6 @@
+{
+  "name": "MINE RDC - Plateforme d'Investissement Minier en RDC",
+  "description": "Plateforme d'investissement minier en République Démocratique du Congo : Coltan, Cuivre, Diamant, Or, Manganèse avec gains quotidiens et retraits Mobile Money.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
